@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Лабораторная работа 2</title>
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo"><span>лабораторная работа 2</span></div>
+      <nav class="menu">
+        <ul>
+          <li><a href="#">ОБЗОР</a> <span>▼</span></li>
+          <li><a href="#">НОВОСТИ</a> <span>▼</span></li>
+          <li><a href="#">ИНФОРМАЦИЯ</a> <span>▼</span></li>
+          <li><a href="#">РЕСУРС</a> <span>▼</span></li>
+        </ul>
+      </nav>
+      <div class="auth-buttons">
+        <button>ЛОГИН</button>
+        <button>зайти как гость</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="legend-section">
+    <div class="legend-content">
+      <h1>ЛЕГЕНДА</h1>
+      <div class="rating-box">
+        <div class="rating">7.3</div>
+        <div class="votes">1 102 525 оценок</div>
+      </div>
+      <p>Криминальная драма о братьях-близнецах Крэй, контролировавших преступный мир Лондона в 1960-х годах. В главной роли — Том Харди, сыгравший сразу двух персонажей.</p>
+      <button class="watch-btn">СМОТРЕТЬ</button>
+    </div>
+    <div class="legend-image"><img src="img/image 1.png" alt="Том Харди в фильме 'Легенда'"></div>
+  </section>
+
+  <section class="schedule-section">
+    <h2>РАСПИСАНИЕ И БИЛЕТЫ</h2>
+    <div class="schedule-content">
+      <div class="schedule-image"><img src="img/Image container.png" alt="Сцена из фильма"></div>
+      <div class="schedule-text">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, impedit magnam eos recusandae aliquam quisquam voluptas. Ipsum, mollitia in. Delectus sapiente quisquam est dolores eaque. Harum quasi dolore velit cupiditate.</p>
+        <button class="schedule-btn">смотреть</button>
+      </div>
+    </div>
+  </section>
+
+  <div class="tickets-block">
+    <h1>БИЛЕТЫ</h1>
+    <p>Планируете ли вы романтическое свидание... (текст преамбулы)</p>
+    <div class="tariffs">
+      <div class="tariff">
+        <h2>Онлайн кинотеатр</h2>
+        <p>0 рублей/месяц</p>
+        <p>Идеальный выбор для тех, кто ценит...</p>
+        <ul>
+          <li>Доступ к библиотеке из 5000+ фильмов и сериалов</li>
+          <li>Просмотр на 2 любых устройствах</li>
+          <li>Качество видео — Full HD (1080p)</li>
+          <li>Синхронизация до 5 устройств</li>
+          <li>Персональные подборки контента</li>
+          <li>Функция создания списка «Смотреть позже»</li>
+        </ul>
+        <button>ОПЛАТИТЬ</button>
+      </div>
+      <div class="tariff personal">
+        <h2>Персональный</h2>
+        <p>399 рублей/месяц</p>
+        <p>Идеальный выбор для тех, кто ценит...</p>
+        <ul>
+          <li>Никакой рекламы</li>
+          <li>Качество видео — 4K Ultra HD и HDR</li>
+          <li>Просмотр оффлайн</li>
+          <li>Объёмный звук Dolby Digital</li>
+          <li>Синхронизация до 5 устройств</li>
+          <li>Ранний доступ к премьерам</li>
+        </ul>
+        <button>ОПЛАТИТЬ</button>
+      </div>
+      <div class="tariff">
+        <h2>Семейный</h2>
+        <p>699 рублей/месяц</p>
+        <p>Для тех, кто не хочет спорить из-за пульта...</p>
+        <ul>
+          <li>5 независимых профилей</li>
+          <li>Одновременный просмотр на 4 устройствах</li>
+          <li>Качество видео — 4K Ultra HD + Dolby Vision</li>
+          <li>Приоритетная поддержка 24/7</li>
+          <li>Скидка 20% на покупку киноновинок</li>
+          <li>Синхронизация между неограниченным количеством устройств</li>
+        </ul>
+        <button>ОПЛАТИТЬ</button>
+      </div>
+    </div>
+  </div>
+
+  <section class="order-form">
+    <h2>Форма заказа</h2>
+    <form action="/process-order" method="POST">
+      <label for="name">Имя</label>
+      <input type="text" id="name" name="name" required>
+      <label for="surname">Фамилия</label>
+      <input type="text" id="surname" name="surname" required>
+      <label for="patronymic">Отчество</label>
+      <input type="text" id="patronymic" name="patronymic">
+      <button type="submit">Оплатить</button>
+    </form>
+  </section>
+
+  <details>
+  <summary>Как отфильтровать фильмы по году выпуска?</summary>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat neque earum maxime iste et, atque iusto obcaecati dolor officiis libero voluptatum id, rerum, ut cumque adipisci sunt rem aliquid. Incidunt?</p>
+</details>
+<details>
+  <summary>Можно ли искать фильмы по актёру или режиссёру?</summary>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet facere aut mollitia recusandae itaque fugiat commodi delectus id ad beatae repellat veritatis quae et eligendi, laboriosam doloribus, velit explicabo. Dolore.</p>
+</details>
+<details>
+  <summary>Как найти фильм по названию?</summary>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus accusantium iusto maxime magni quam fuga. Sit illo nihil magni repellat, obcaecati dicta dolores quod cumque, molestiae dolor quisquam, non doloremque!</p>
+</details>
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-left">
+      <p>КиноМир создан для новых впечатлений. Мы открываем доступ к лучшим историям планеты в любом месте и в любое время.</p>
+    </div>
+    <div class="footer-middle">
+      <div class="col">
+        <h4>КОНТЕНТ</h4>
+        <div><a href="#">Обзор новинок</a></div>
+        <div><a href="#">Тарифы и цены</a></div>
+        <div><a href="#">Подборки редакции</a></div>
+      </div>
+    </div>
+    <div class="footer-right">
+      <h4>ПОПРОБУЙ СЕГОДНЯ</h4>
+      <p>Get started for free. Add your whole team as your needs grow.</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <a href="#">Русский</a>
+    <a href="#">Условия и конфиденциальность</a>
+    <a href="#">Безопасность</a>
+    <a href="#">Публичная оферта</a>
+    <p>©2024 КиноМир LLC. Все права защищены.</p>
+  </div>
+</footer>
+<script></script>
+</body>
+</html>
